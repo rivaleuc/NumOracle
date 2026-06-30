@@ -2,6 +2,8 @@
 
 **A numeric oracle that agrees on a VALUE within a tolerance band, by GenLayer consensus.**
 
+[![GenLayer](https://img.shields.io/badge/GenLayer-Bradbury-ff4d6d)](https://genlayer.com) [![chainId](https://img.shields.io/badge/chainId-4221-4dd0e1)](https://docs.genlayer.com) [![contract](https://img.shields.io/badge/contract-Python%20GenVM-8a63d2)](https://docs.genlayer.com) [![tests](https://img.shields.io/badge/tests-6%2F6%20passing-3fb950)](tests) [![frontend](https://img.shields.io/badge/frontend-React%20%2B%20Vite%20%2B%20genlayer--js-22a6f2)](app) [![live](https://img.shields.io/badge/live-numoracle.pages.dev-f59e0b)](https://numoracle.pages.dev) [![License](https://img.shields.io/badge/license-MIT-2dd4bf)](LICENSE)
+
 Request a numeric fact (a price, a temperature, a statistic) with evidence sources and a tolerance in
 basis points. `resolve` has every validator independently fetch the sources and read off the number;
 the result settles only when the validators' numbers agree to **within the requested tolerance**
