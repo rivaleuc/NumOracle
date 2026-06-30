@@ -11,6 +11,7 @@ contracts read the settled number via `read_value`.
 The verb is **"agree on a number within tolerance"** — distinct from a boolean verdict; the validator
 check is numeric closeness.
 
+- **Live demo:** https://numoracle.pages.dev
 - **Contract (Bradbury, chain 4221):** `0x8004CC0081817bdF0824D3fCfBD806a0572d44e8`
 - **Deployed from:** `rivale` (`0xc388…51A44`)
 - **Explorer:** https://explorer-bradbury.genlayer.com/contract/0x8004CC0081817bdF0824D3fCfBD806a0572d44e8
